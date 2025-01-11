@@ -50,7 +50,6 @@ function createTaskElement(taskTitle) {
   return li;
 }
 
-// Edit a task
 function editTask(taskText) {
   const newTaskTitle = prompt('Edit your task:', taskText.textContent);
   if (newTaskTitle && newTaskTitle.trim() !== '') {
